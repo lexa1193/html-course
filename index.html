@@ -10,14 +10,24 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <style>
+      .rounded-img {
+        width: 60%;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        padding: 0.5em;
+        margin-bottom: 1em;
+      }
+    </style>
   </head>
   <body>
     <div class="container text-center my-5">
       <div class="row">
         <div class="col-lg-6 col-md-8 mx-auto">
-          <img src="azula.jpg" alt="Azula" />
+          <img class="rounded-img" src="azula.jpg" alt="Azula" />
           <h1 class="fw-light">Alexey Zamezhenin</h1>
-          <p class="lead text-muted">
+          <!-- was text-muted -->
+          <p class="lead text-dark">
             I am a beginner frontend developer. This page is my practice for the
             HTML course for beginers. Wish me good luck.
           </p>
