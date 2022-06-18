@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My favorite places</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <style>
+      .card{
+        border-radius: 1em;
+        text-align: center;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 50%;
+        width: 60%;
+        margin: auto;
+        padding: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/">
+          <img src="img/logo.png" alt="logo" width="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="places.html">Favorite places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img
+              src="img/fire-capital400.jpg"
+              class="card-img-top"
+              alt="fire-capital"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fire Nation</h5>
+              <p class="card-text"></p>
+              <a href="img/fire-capital.webp" target="_blank" class="btn btn-primary">Large Photo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="img/earth-capital400.jpg"
+              class="card-img-top"
+              alt="earth-capital"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Earth Kingdom</h5>
+              <p class="card-text"></p>
+                <a href="img/earth-capital.webp" target="_blank" class="btn btn-primary">Large Photo</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="img/water-capital400.jpg"
+              class="card-img-top"
+              alt="water-capital"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Water Tribe</h5>
+              <p class="card-text"></p>
+              <a href="img/water-capital.webp"  target="_blank" class="btn btn-primary">Large Photo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
